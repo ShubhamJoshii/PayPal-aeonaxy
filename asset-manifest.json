@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/PayPal-aeonaxy/static/css/main.c870bc2a.css",
+    "main.js": "/PayPal-aeonaxy/static/js/main.6a8b0213.js",
+    "static/js/475.5bc17a3e.chunk.js": "/PayPal-aeonaxy/static/js/475.5bc17a3e.chunk.js",
+    "static/js/392.152cc31e.chunk.js": "/PayPal-aeonaxy/static/js/392.152cc31e.chunk.js",
+    "static/js/427.4da2c2a2.chunk.js": "/PayPal-aeonaxy/static/js/427.4da2c2a2.chunk.js",
+    "static/media/LadyUsingPhone.jpg": "/PayPal-aeonaxy/static/media/LadyUsingPhone.b7020a3c1a2719fe921b.jpg",
+    "static/media/Image1.png": "/PayPal-aeonaxy/static/media/Image1.054ef4fdee31cd7f9570.png",
+    "static/media/BackgroungImg2.png": "/PayPal-aeonaxy/static/media/BackgroungImg2.954d4b840e4e19573d95.png",
+    "static/media/PayBillAtOnePlace.png": "/PayPal-aeonaxy/static/media/PayBillAtOnePlace.6bf711d433ac7020861a.png",
+    "static/media/Image2.png": "/PayPal-aeonaxy/static/media/Image2.dc0382be630f07d40c83.png",
+    "static/media/PaypalSaving.jpg": "/PayPal-aeonaxy/static/media/PaypalSaving.ba1bbfb20074385a1bdd.jpg",
+    "static/media/Direct_Deposit2.jpg": "/PayPal-aeonaxy/static/media/Direct_Deposit2.f93e0c73a8878e13f8d6.jpg",
+    "static/media/ContactMeDesign.png": "/PayPal-aeonaxy/static/media/ContactMeDesign.67de131331f78ac490a5.png",
+    "static/media/Grow_Your_PayPal.png": "/PayPal-aeonaxy/static/media/Grow_Your_PayPal.5bab57140efed9bcdd3f.png",
+    "static/media/Discover_crypto.png": "/PayPal-aeonaxy/static/media/Discover_crypto.5aee73678ba8212aa508.png",
+    "static/media/PayPalLogo.png": "/PayPal-aeonaxy/static/media/PayPalLogo.c70729eda9af399eaa60.png",
+    "static/media/PayPalCashCard.png": "/PayPal-aeonaxy/static/media/PayPalCashCard.755d9dec7b25b5309700.png",
+    "static/media/PayBills.png": "/PayPal-aeonaxy/static/media/PayBills.4bf023441aa50e229342.png",
+    "static/media/Image3.png": "/PayPal-aeonaxy/static/media/Image3.0d2c71521ee8498d16f0.png",
+    "static/media/PayPalFull.png": "/PayPal-aeonaxy/static/media/PayPalFull.b311b5b7e01b1a648a39.png",
+    "static/media/QRCode.png": "/PayPal-aeonaxy/static/media/QRCode.99d72776157f5ae2c099.png",
+    "static/media/BuyAndSellCrypto.png": "/PayPal-aeonaxy/static/media/BuyAndSellCrypto.63759d9e521c6f0c85f0.png",
+    "static/media/america_flag.webp": "/PayPal-aeonaxy/static/media/america_flag.449bbbc091b5376fe377.webp",
+    "index.html": "/PayPal-aeonaxy/index.html",
+    "main.c870bc2a.css.map": "/PayPal-aeonaxy/static/css/main.c870bc2a.css.map",
+    "main.6a8b0213.js.map": "/PayPal-aeonaxy/static/js/main.6a8b0213.js.map",
+    "475.5bc17a3e.chunk.js.map": "/PayPal-aeonaxy/static/js/475.5bc17a3e.chunk.js.map",
+    "392.152cc31e.chunk.js.map": "/PayPal-aeonaxy/static/js/392.152cc31e.chunk.js.map",
+    "427.4da2c2a2.chunk.js.map": "/PayPal-aeonaxy/static/js/427.4da2c2a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c870bc2a.css",
+    "static/js/main.6a8b0213.js"
+  ]
+}
