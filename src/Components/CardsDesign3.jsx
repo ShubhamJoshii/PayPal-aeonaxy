@@ -27,29 +27,27 @@ const CardsDesign3 = ({ data, position }) => {
         className={`${classesText} bg-[#ffffffc9] p-6 shadow-lg rounded-lg sm:bg-none sm:shadow-none`}
       >
         <div className="w-[80vw] py-8 px-4 sm:p-0 sm:w-[400px] ">
-          <h1 className="font-extrabold  text-xl sm:text-3xl  lg:text-5xl sm:mb-4 text-[#001b65]">
+          <h1 className="font-extrabold  text-xl sm:text-3xl  lg:text-5xl sm:mb-4 text-primary-Color ">
             {data.Heading}
           </h1>
           {data.Description.map((curr, ids) => {
             return (
-              <span className="text-[#1e3165]" key={ids}>
+              <span className="text-primary-Color " key={ids}>
                 {curr}
               </span>
             );
           })}
-          <div className="flex items-center gap-8 text-[#2576d1] ">
-            <CardHeadingWithLinkText Text={data.LinkText} Link={data.Link} LogoBG="#0266d046" />
+          <div className="flex items-center  flex-wrap gap-x-8 text-secondary-Color  ">
+            <CardHeadingWithLinkText
+              Text={data.LinkText}
+              Link={data.Link}
+              LogoBG="bg-[#0266d046]"
+            />
           </div>
-          </div>
-          </div>
-          </div>
-        );
-      };
-      
-      export default CardsDesign3;
-      
-      // <p>{data.LinkText}</p>
-      // <NavLink to={data.Link} className="rounded-[50%] bg-[#0266d046]">
-      //   <LiaLongArrowAltRightSolid className="translate-x-[-5px] sm:translate-x-[-8px] lg:translate-x-[-14px] hover:translate-x-[8px] lg:hover:translate-x-[14px] text-xl sm:text-3xl lg:text-5xl duration-300" />
-      // </NavLink>
-// <LiaLongArrowAltRightSolid className="translate-x-[-14px]  text-lg sm:text-2xl  lg:text-4xl hover:translate-x-[5px] duration-300" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default CardsDesign3;

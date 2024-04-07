@@ -19,7 +19,7 @@ const Data = [
     Text: "Buy and Sell Crypto",
     style: "bg-[#001c62] w-[100%] h-[380px] sm:w-[100%] sm:h-[650px] lg:w-[100%] lg:h-[700px]",
     Img: BuyAndSellCrypto,
-    ImgStyle: "absolute BuyAndSellCrypto top-[50%] left-[50%]",
+    ImgStyle: "absolute transform -translate-x-[50%] -translate-y-[50%] top-[50%] left-[50%]",
     textStyle: "absolute bottom-8",
     Link: "/",
   },

@@ -66,10 +66,10 @@ const Header = () => {
             alt="PayPal"
             className="w-[140px] block lg:hidden"
           />
-          <div className="gap-12 font-700 text-Primary-Text hidden lg:flex">
+          <div className="gap-12 font-700 text-primary-Color hidden lg:flex">
             {HeaderList.map((curr, id) => {
               return (
-                <NavLink href={curr.Link} key={id}>
+                <NavLink to={curr.Link} key={id}>
                   {curr.Name}
                 </NavLink>
               );
@@ -79,20 +79,20 @@ const Header = () => {
         <div className="flex gap-4 font-bold ">
           <NavLink
             to="/login"
-            className="py-2 px-5 sm:px-10 sm:py-3 text-[#003188] border-2  border-[#003188] rounded-[50px] hover:bg-[#003188] hover:text-white"
+            className="py-2 px-5 sm:px-10 sm:py-3 text-button-Color border-2  border-button-Color rounded-[50px] hover:bg-button-Color hover:text-white"
           >
             Log In
           </NavLink>
           <NavLink
             to="/signup"
-            className="px-10 py-3 bg-[#003188] text-white border-2 border-[#003188] rounded-[50px] hover:bg-white hover:text-[#003188] hidden lg:inline"
+            className="px-10 py-3 bg-button-Color text-white border-2 border-button-Color rounded-[50px] hover:bg-white hover:text-button-Color hidden lg:inline"
           >
             Sign Up
           </NavLink>
         </div>
       </header>
       <div
-        className={` absolute flex flex-col left-0 bg-white w-[100%] delay-150 font-700 text-Primary-Text lg:hidden shadow-lg  ${
+        className={` absolute flex flex-col left-0 bg-white w-[100%] delay-150 font-700 text-primary-Color lg:hidden shadow-lg  ${
           headerShow ? "top-[80px] sm:top-[120px]" : "top-[-400px]"
         }`}
         ref={ref}
@@ -100,9 +100,9 @@ const Header = () => {
         {HeaderList.map((curr, id) => {
           return (
             <NavLink
-              href={curr.Link}
+              to={curr.Link}
               key={id}
-              className="px-10 py-4 hover:text-white hover:bg-[#003188]"
+              className="px-10 py-4 hover:text-white hover:bg-primary-Color"
             >
               {curr.Name}
             </NavLink>

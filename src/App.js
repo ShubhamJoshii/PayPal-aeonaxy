@@ -4,6 +4,7 @@ import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 const Header = lazy(() => import("./Components/Header"));
 const FrontPage = lazy(() => import("./Pages/FrontPage"));
+const PageNotFound = lazy(()=> import("./Pages/PageNotFound"));
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<FrontPage />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Suspense>
     </Router>

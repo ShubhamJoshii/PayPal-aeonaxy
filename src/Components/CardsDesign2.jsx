@@ -15,13 +15,13 @@ const CardsDesign2 = ({ data, position }) => {
         alt={data.Heading}
         className="w-[200px] sm:w-[300px] lg:w-[550px]"
       />
-      <div className="text-center sm:text-start  w-[80vw] sm:w-[400px]">
-        <h1 className="font-extrabold text-xl sm:text-3xl lg:text-5xl mb-4 text-[#001b65]">
+      <div className="text-center sm:text-start  w-[80vw] sm:w-[400px] text-primary-Color">
+        <h1 className="font-extrabold text-xl sm:text-3xl lg:text-5xl mb-4  ">
           {data.Heading}
         </h1>
-        <div className="text-[#1e3165]">{data.Description}</div>
-        <div className="flex items-center justify-center sm:justify-start mt-3 gap-8 text-[#2576d1] text-base">
-          <CardHeadingWithLinkText Text={data.LinkText} Link={data.Link} LogoBG="#0266d046" />
+        <div className="text-third-Color ">{data.Description}</div>
+        <div className="flex items-center justify-center sm:justify-start mt-3 gap-8 text-secondary-Color text-base ">
+          <CardHeadingWithLinkText Text={data.LinkText} Link={data.Link} LogoBG="bg-[#0266d046]" />
         </div>
         </div>
         </div>
