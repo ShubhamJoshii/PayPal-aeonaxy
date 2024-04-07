@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PayPal-aeonaxy/static/css/main.5bf648b5.css",
-    "main.js": "/PayPal-aeonaxy/static/js/main.041cff63.js",
+    "main.js": "/PayPal-aeonaxy/static/js/main.828db6cd.js",
     "static/js/475.3212da0c.chunk.js": "/PayPal-aeonaxy/static/js/475.3212da0c.chunk.js",
     "static/js/34.8fda6173.chunk.js": "/PayPal-aeonaxy/static/js/34.8fda6173.chunk.js",
     "static/js/972.c3d34641.chunk.js": "/PayPal-aeonaxy/static/js/972.c3d34641.chunk.js",
@@ -26,7 +26,7 @@
     "static/media/america_flag.webp": "/PayPal-aeonaxy/static/media/america_flag.449bbbc091b5376fe377.webp",
     "index.html": "/PayPal-aeonaxy/index.html",
     "main.5bf648b5.css.map": "/PayPal-aeonaxy/static/css/main.5bf648b5.css.map",
-    "main.041cff63.js.map": "/PayPal-aeonaxy/static/js/main.041cff63.js.map",
+    "main.828db6cd.js.map": "/PayPal-aeonaxy/static/js/main.828db6cd.js.map",
     "475.3212da0c.chunk.js.map": "/PayPal-aeonaxy/static/js/475.3212da0c.chunk.js.map",
     "34.8fda6173.chunk.js.map": "/PayPal-aeonaxy/static/js/34.8fda6173.chunk.js.map",
     "972.c3d34641.chunk.js.map": "/PayPal-aeonaxy/static/js/972.c3d34641.chunk.js.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.5bf648b5.css",
-    "static/js/main.041cff63.js"
+    "static/js/main.828db6cd.js"
   ]
 }
