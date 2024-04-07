@@ -5,7 +5,6 @@ import "./App.css";
 const Header = lazy(() => import("./Components/Header"));
 const FrontPage = lazy(() => import("./Pages/FrontPage"));
 const PageNotFound = lazy(()=> import("./Pages/PageNotFound"));
-
 function App() {
   return (
     <Router basename="/PayPal-aeonaxy">

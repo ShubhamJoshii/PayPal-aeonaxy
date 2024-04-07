@@ -2,8 +2,9 @@ import React, { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 import PayPalLogo from "../../Assets/PayPalLogo.png";
 import PayPalLogo2 from "../../Assets/PayPalFull.png";
-import { IoMenu } from "react-icons/io5";
-import { IoMdClose } from "react-icons/io";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+
 const HeaderList = [
   {
     Name: "Personal",
@@ -40,16 +41,18 @@ const Header = () => {
   return (
     <React.Fragment>
       <header className="flex items-center px-2 py-4 sm:p-8 justify-between border-b-2 text-sm lg:text-lg bg-white">
-        <div className="text-4xl block lg:hidden text-black opacity-70 border hover:opacity-100 sm:text-5xl hover:border-black p-[2px] cursor-pointer delay-150">
+        <div className="flex justify-center items-center w-[40px] text-4xl lg:hidden text-black opacity-70 border hover:opacity-100 sm:text-5xl hover:border-black cursor-pointer delay-150">
           {headerShow ? (
-            <IoMdClose
-              onClick={() => setHeaderShow(!headerShow)}
-              className=""
-            />
+            <div>
+              <FontAwesomeIcon icon={faXmark}
+                onClick={() => setHeaderShow(!headerShow)}
+                className="text-4xl px-[4px] py-[3px] "
+              />
+            </div>
           ) : (
-            <IoMenu
+            <FontAwesomeIcon icon={faBars}
               onClick={() => setHeaderShow(!headerShow)}
-              className=""
+              className="text-4xl p-[4px] "
             />
           )}
         </div>
