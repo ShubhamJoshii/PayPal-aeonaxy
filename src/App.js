@@ -7,11 +7,11 @@ const FrontPage = lazy(() => import("./Pages/FrontPage"));
 
 function App() {
   return (
-    <Router>
+    <Router basename="/PayPal-aeonaxy">
       <Suspense fallback={<Preloader />}>
         <Header />
         <Routes>
-          <Route path="/PayPal-aeonaxy/" element={<FrontPage />} />
+          <Route path="/" element={<FrontPage />} />
         </Routes>
       </Suspense>
     </Router>

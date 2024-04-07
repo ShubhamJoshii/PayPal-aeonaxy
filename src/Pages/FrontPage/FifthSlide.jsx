@@ -26,14 +26,14 @@ const data = [
 const data2 = [
   {
     Heading:"Pay your bills in one place",
-    Description:["Securely pay your utilities, TV. internet. phone bills. and more."],
+    Description:<p>Securely pay your utilities, TV. internet. phone bills. and more.</p>,
     LinkText:"Pay bills with PayPal",
     LinkURL:"/",
     Image:PayBillAtOnePlace,
   },
   {
     Heading:"Meet the PayPal Cash Card",
-    Description:["pay in person or online everywhere Mastercard®️ is accepted, Plus, there's no monthly fee, minimum balance, or credit Check required.", <sup>4</sup>],
+    Description:<p>pay in person or online everywhere Mastercard®️ is accepted, Plus, there's no monthly fee, minimum balance, or credit Check required.<sup>4</sup></p>,
     LinkText:"About the PayPal Cash Card",
     LinkURL:"/",
     Image:PayPalCashCard,
@@ -43,10 +43,10 @@ const data2 = [
 const FifthSlide = () => {
   return (
     <>
-    <h1 className="text-[#001c62] text-5xl font-extrabold mt-24  m-auto text-center">
+    <h1 className="text-[#001c62]  text-xl sm:text-3xl  lg:text-5xl font-extrabold mt-6 sm:mt-12 lg:mt-24  m-auto text-center">
     More ways to manage your <br /> money
         </h1>
-    <div className='my-16 flex flex-col'>
+    <div className='my-4 sm:my-8 lg:my-16 flex flex-col'>
     {
       data.map((curr, id)=>{
         return <CardsDesign3 data={curr} position={id} key={id}/> 

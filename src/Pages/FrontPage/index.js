@@ -19,8 +19,8 @@ const index = () => {
       <JoinNowPage />
       <Footer />
       <TermsAndCondition />
-      </div>
+    </div>
     )
   }
-
-export default index
+  
+  export default index
