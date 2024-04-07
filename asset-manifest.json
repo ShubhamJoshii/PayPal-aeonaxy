@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/PayPal-aeonaxy/static/css/main.ff4203b4.css",
-    "main.js": "/PayPal-aeonaxy/static/js/main.17a19dd2.js",
-    "static/js/475.36f3fa4b.chunk.js": "/PayPal-aeonaxy/static/js/475.36f3fa4b.chunk.js",
-    "static/js/34.d8faba7f.chunk.js": "/PayPal-aeonaxy/static/js/34.d8faba7f.chunk.js",
+    "main.css": "/PayPal-aeonaxy/static/css/main.3a547ff4.css",
+    "main.js": "/PayPal-aeonaxy/static/js/main.236113dc.js",
+    "static/js/475.03145b1b.chunk.js": "/PayPal-aeonaxy/static/js/475.03145b1b.chunk.js",
+    "static/js/34.8954ae39.chunk.js": "/PayPal-aeonaxy/static/js/34.8954ae39.chunk.js",
+    "static/js/972.c3d34641.chunk.js": "/PayPal-aeonaxy/static/js/972.c3d34641.chunk.js",
     "static/js/530.9334274e.chunk.js": "/PayPal-aeonaxy/static/js/530.9334274e.chunk.js",
     "static/js/877.2fcebd99.chunk.js": "/PayPal-aeonaxy/static/js/877.2fcebd99.chunk.js",
     "static/media/LadyUsingPhone.jpg": "/PayPal-aeonaxy/static/media/LadyUsingPhone.b7020a3c1a2719fe921b.jpg",
@@ -25,15 +26,16 @@
     "static/media/BuyAndSellCrypto.png": "/PayPal-aeonaxy/static/media/BuyAndSellCrypto.63759d9e521c6f0c85f0.png",
     "static/media/america_flag.webp": "/PayPal-aeonaxy/static/media/america_flag.449bbbc091b5376fe377.webp",
     "index.html": "/PayPal-aeonaxy/index.html",
-    "main.ff4203b4.css.map": "/PayPal-aeonaxy/static/css/main.ff4203b4.css.map",
-    "main.17a19dd2.js.map": "/PayPal-aeonaxy/static/js/main.17a19dd2.js.map",
-    "475.36f3fa4b.chunk.js.map": "/PayPal-aeonaxy/static/js/475.36f3fa4b.chunk.js.map",
-    "34.d8faba7f.chunk.js.map": "/PayPal-aeonaxy/static/js/34.d8faba7f.chunk.js.map",
+    "main.3a547ff4.css.map": "/PayPal-aeonaxy/static/css/main.3a547ff4.css.map",
+    "main.236113dc.js.map": "/PayPal-aeonaxy/static/js/main.236113dc.js.map",
+    "475.03145b1b.chunk.js.map": "/PayPal-aeonaxy/static/js/475.03145b1b.chunk.js.map",
+    "34.8954ae39.chunk.js.map": "/PayPal-aeonaxy/static/js/34.8954ae39.chunk.js.map",
+    "972.c3d34641.chunk.js.map": "/PayPal-aeonaxy/static/js/972.c3d34641.chunk.js.map",
     "530.9334274e.chunk.js.map": "/PayPal-aeonaxy/static/js/530.9334274e.chunk.js.map",
     "877.2fcebd99.chunk.js.map": "/PayPal-aeonaxy/static/js/877.2fcebd99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff4203b4.css",
-    "static/js/main.17a19dd2.js"
+    "static/css/main.3a547ff4.css",
+    "static/js/main.236113dc.js"
   ]
 }
